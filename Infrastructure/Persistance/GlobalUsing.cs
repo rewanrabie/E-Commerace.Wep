@@ -1,0 +1,16 @@
+﻿global using DomainLayer.InterFaceRepostory_Contracts_;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.DependencyInjection;
+global using Persistance.Data;
+global using Persistance.Repositories;
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Text;
+global using System.Threading.Tasks;
+using DomainLayer.Models.OrderModule;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
