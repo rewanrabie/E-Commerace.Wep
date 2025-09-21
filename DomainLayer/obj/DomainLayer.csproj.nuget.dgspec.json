@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rewan\\source\\repos\\E-Commerace.Wep\\DomainLayer\\DomainLayer.csproj": {}
+    "C:\\Users\\Rewan\\source\\repos\\E-Commerace.Wep\\Core\\DomainLayer\\DomainLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rewan\\source\\repos\\E-Commerace.Wep\\DomainLayer\\DomainLayer.csproj": {
+    "C:\\Users\\Rewan\\source\\repos\\E-Commerace.Wep\\Core\\DomainLayer\\DomainLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rewan\\source\\repos\\E-Commerace.Wep\\DomainLayer\\DomainLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Rewan\\source\\repos\\E-Commerace.Wep\\Core\\DomainLayer\\DomainLayer.csproj",
         "projectName": "DomainLayer",
-        "projectPath": "C:\\Users\\Rewan\\source\\repos\\E-Commerace.Wep\\DomainLayer\\DomainLayer.csproj",
+        "projectPath": "C:\\Users\\Rewan\\source\\repos\\E-Commerace.Wep\\Core\\DomainLayer\\DomainLayer.csproj",
         "packagesPath": "C:\\Users\\Rewan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rewan\\source\\repos\\E-Commerace.Wep\\DomainLayer\\obj\\",
+        "outputPath": "C:\\Users\\Rewan\\source\\repos\\E-Commerace.Wep\\Core\\DomainLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rewan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
